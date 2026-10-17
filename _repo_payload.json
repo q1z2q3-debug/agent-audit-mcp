@@ -1,1 +1,0 @@
-{"name": "agent-audit-mcp", "description": "九维认知空间 Agent 审计层 MCP 插件：把 AI Agent 每步决策映射为九位平衡三进制认知状态序列（3^9=19683），输出 OK/WATCH/ALERT/BLOCK 审计报告", "homepage": "https://pypi.org/project/agent-audit-mcp/", "private": false, "has_issues": true, "has_wiki": false, "auto_init": false}
