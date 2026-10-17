@@ -5,12 +5,48 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "agent-audit-mcp"
 version = "1.0.0"
-description = "九维认知空间 Agent 审计层 MCP 插件：决策步骤→九位平衡三进制状态序列→审计报告"
+description = "九维认知空间 Agent 审计层 MCP 插件：决策步骤→九位平衡三进制状态序列→审计报告 (Audit AI agent decisions as balanced-ternary cognitive states via MCP)"
 readme = "README.md"
 requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    { name = "润泽 · 灵助（三元九维）", email = "runze@lingzhu.ai" },
+]
+keywords = [
+    "mcp",
+    "mcp-server",
+    "ai-agent",
+    "agent-audit",
+    "agent-safety",
+    "balanced-ternary",
+    "cognitive-space",
+    "llm",
+    "compliance",
+    "audit",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: System :: Monitoring",
+]
 dependencies = [
     "mcp>=2.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/lingzhu-ai/agent-audit-mcp"
+Repository = "https://github.com/lingzhu-ai/agent-audit-mcp"
+Issues = "https://github.com/lingzhu-ai/agent-audit-mcp/issues"
+Documentation = "https://github.com/lingzhu-ai/agent-audit-mcp#readme"
 
 [project.scripts]
 agent-audit = "agent_audit.server:main"

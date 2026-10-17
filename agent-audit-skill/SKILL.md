@@ -51,10 +51,12 @@ license: MIT
 
 ### 方式一：本地 stdio 连接器（推荐，单人使用）
 
-1. 安装依赖（Python ≥ 3.10，需 MCP SDK ≥ 2.0）：
+1. 安装（二选一）：
    ```bash
-   cd agent-audit-mcp
-   python -m pip install -e .
+   # 从 PyPI 一键安装（推荐）：https://pypi.org/project/agent-audit-mcp/
+   python -m pip install agent-audit-mcp
+   # 或源码开发安装：
+   cd agent-audit-mcp && python -m pip install -e .
    ```
 2. 在 WorkBuddy「连接器」页新建 **本地 stdio** 连接器：
    - 命令：`<你的python> -m agent_audit.server`

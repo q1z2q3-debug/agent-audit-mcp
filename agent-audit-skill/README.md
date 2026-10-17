@@ -31,9 +31,9 @@
 ## 🚀 三分钟接入（本地 stdio）
 
 ```bash
-# 1) 装依赖（Python ≥ 3.10，需 MCP SDK ≥ 2.0）
-cd agent-audit-mcp
-python -m pip install -e .
+# 1) 安装（Python ≥ 3.10；PyPI 一键装，自动带上 MCP SDK ≥ 2.0）
+python -m pip install agent-audit-mcp
+#    源码开发装法： cd agent-audit-mcp && python -m pip install -e .
 
 # 2) 一键注册为 WorkBuddy 连接器（安全合并，不覆盖现有配置）
 python ../agent-audit-skill/install.py

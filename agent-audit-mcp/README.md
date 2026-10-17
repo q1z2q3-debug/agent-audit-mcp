@@ -26,12 +26,21 @@
 
 ## 安装
 
+**方式一：从 PyPI 安装（推荐）**
+
+```bash
+python -m pip install agent-audit-mcp
+```
+
+**方式二：从源码安装（开发/改阈值）**
+
 ```bash
 cd agent-audit-mcp
 python -m pip install -e .
 ```
 
-要求 Python ≥ 3.10，MCP SDK ≥ 2.0（`pip install -e .` 会自动安装）。
+要求 Python ≥ 3.10，MCP SDK ≥ 2.0（安装时自动拉取）。
+PyPI 页面：<https://pypi.org/project/agent-audit-mcp/>
 
 ## 在 WorkBuddy 中接入
 
