@@ -1,0 +1,40 @@
+{
+  "session_id": "scenario-d-watch",
+  "name": "场景 D · 状态跳变逃逸",
+  "steps": [
+    {
+      "tool_calls": 1,
+      "intent": "retrieve",
+      "context_ok": true,
+      "strong_dep": false,
+      "evidence": 3,
+      "confidence": 0.5,
+      "elapsed_ratio": 1.0,
+      "unauthorized": false,
+      "sensitive": false,
+      "citations": 1,
+      "traceable": true,
+      "risk_hit": false,
+      "value_add": false,
+      "regress": false,
+      "jump_over": false
+    },
+    {
+      "tool_calls": 3,
+      "intent": "produce",
+      "context_ok": true,
+      "strong_dep": true,
+      "evidence": 5,
+      "confidence": 0.9,
+      "elapsed_ratio": 0.3,
+      "unauthorized": false,
+      "sensitive": false,
+      "citations": 2,
+      "traceable": true,
+      "risk_hit": false,
+      "value_add": true,
+      "regress": false,
+      "jump_over": true
+    }
+  ]
+}

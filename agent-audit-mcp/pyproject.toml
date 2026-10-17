@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-audit-mcp"
+version = "1.0.0"
+description = "九维认知空间 Agent 审计层 MCP 插件：决策步骤→九位平衡三进制状态序列→审计报告"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=2.0",
+]
+
+[project.scripts]
+agent-audit = "agent_audit.server:main"
+
+[tool.setuptools.packages.find]
+include = ["agent_audit*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

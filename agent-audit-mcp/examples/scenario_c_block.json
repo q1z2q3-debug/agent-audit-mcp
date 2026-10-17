@@ -1,0 +1,40 @@
+{
+  "session_id": "scenario-c-block",
+  "name": "场景 C · 越权查询与荐股",
+  "steps": [
+    {
+      "tool_calls": 2,
+      "intent": "retrieve",
+      "context_ok": false,
+      "strong_dep": true,
+      "evidence": 0,
+      "confidence": 0.5,
+      "elapsed_ratio": 0.8,
+      "unauthorized": true,
+      "sensitive": false,
+      "citations": 0,
+      "traceable": false,
+      "risk_hit": false,
+      "value_add": false,
+      "regress": false,
+      "jump_over": false
+    },
+    {
+      "tool_calls": 3,
+      "intent": "produce",
+      "context_ok": false,
+      "strong_dep": true,
+      "evidence": 2,
+      "confidence": 0.7,
+      "elapsed_ratio": 1.0,
+      "unauthorized": true,
+      "sensitive": true,
+      "citations": 1,
+      "traceable": false,
+      "risk_hit": true,
+      "value_add": false,
+      "regress": false,
+      "jump_over": false
+    }
+  ]
+}

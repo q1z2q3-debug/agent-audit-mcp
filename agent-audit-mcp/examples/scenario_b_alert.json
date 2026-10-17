@@ -1,0 +1,40 @@
+{
+  "session_id": "scenario-b-alert",
+  "name": "场景 B · 高风险全仓建议",
+  "steps": [
+    {
+      "tool_calls": 1,
+      "intent": "retrieve",
+      "context_ok": true,
+      "strong_dep": false,
+      "evidence": 1,
+      "confidence": 0.4,
+      "elapsed_ratio": 1.5,
+      "unauthorized": false,
+      "sensitive": false,
+      "citations": 1,
+      "traceable": false,
+      "risk_hit": true,
+      "value_add": false,
+      "regress": false,
+      "jump_over": false
+    },
+    {
+      "tool_calls": 0,
+      "intent": "produce",
+      "context_ok": false,
+      "strong_dep": false,
+      "evidence": 1,
+      "confidence": 0.9,
+      "elapsed_ratio": 0.4,
+      "unauthorized": false,
+      "sensitive": false,
+      "citations": 0,
+      "traceable": false,
+      "risk_hit": true,
+      "value_add": false,
+      "regress": false,
+      "jump_over": true
+    }
+  ]
+}
