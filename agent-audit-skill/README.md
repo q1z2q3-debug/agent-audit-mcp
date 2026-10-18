@@ -66,6 +66,16 @@ WorkBuddy 连 `http://<主机>:9527/mcp`。
 
 > 详见 `发布与上架指南.md`（上架步骤 + 变现分层）。
 
+## 📚 论文与文章
+
+| 资源 | 链接 |
+| --- | --- |
+| 📄 论文（本审计层，md + PDF） | [`paper/Auditing_AI_Agent_Decisions_in_a_Trinary_Cognitive_Space.md`](paper/Auditing_AI_Agent_Decisions_in_a_Trinary_Cognitive_Space.md) / [.pdf](paper/Auditing_AI_Agent_Decisions_in_a_Trinary_Cognitive_Space.pdf)（Zenodo DOI 获取中） |
+| 📄 论文（底层认知坐标系，已发 Zenodo） | DOI: [10.5281/zenodo.23437930](https://doi.org/10.5281/zenodo.23437930) |
+| 🌐 英文技术文（dev.to，已发布） | [Giving Your AI Agent a Black Box: Auditing Every Decision in a 3^9 = 19,683-State Cognitive Space](https://dev.to/q1z2q3debug/giving-your-ai-agent-a-black-box-auditing-every-decision-in-a-39-19683-state-cognitive-space-5hei) |
+| 📦 PyPI | <https://pypi.org/project/agent-audit-mcp/> |
+| ⭐ GitHub | <https://github.com/q1z2q3-debug/agent-audit-mcp> |
+
 ## 🔧 目录结构
 
 ```
@@ -75,9 +85,15 @@ agent-audit-skill/          ← 本目录（可上架的技能包）
   README.md                 市场版说明（本文件）
   发布与上架指南.md         上架与变现
   引流技术文提纲.md          技术引流文大纲
+  引流技术文-初稿.md         中文引流文（含真实四场景结果）
+  引流技术文-devto-en.md    英文引流文（dev.to 已发布版）
   install.py                一键注册连接器
   demo/DEMO.md              真实运行演示
   gen_demo.py               演示生成器
+paper/                      论文（Auditing AI Agent Decisions in a 3^9=19,683-State …）
+   Auditing_AI_Agent_Decisions_in_a_Trinary_Cognitive_Space.md
+   Auditing_AI_Agent_Decisions_in_a_Trinary_Cognitive_Space.pdf
+   md2paper_html.py         md → 学术风 HTML 转换器（PDF 由 Chrome headless 打印）
 ```
 
 ## 📜 合规声明

@@ -138,3 +138,7 @@ python -m pytest tests/ -v
 - `../Agent审计层落地设计方案.md`：审计层方法论与判定规则
 - `../Agent审计MCP插件-设计方案.md`：本插件设计文档
 - `../实例大全-九维认知空间拓展.md`：九维认知空间与 10 实例档案
+- `../paper/Auditing_AI_Agent_Decisions_in_a_Trinary_Cognitive_Space.md`：本审计层论文（含形式化定义、判定格、评测）
+- 底层认知坐标系论文：DOI [10.5281/zenodo.23437930](https://doi.org/10.5281/zenodo.23437930)
+- 英文技术文（dev.to）：[Giving Your AI Agent a Black Box](https://dev.to/q1z2q3debug/giving-your-ai-agent-a-black-box-auditing-every-decision-in-a-39-19683-state-cognitive-space-5hei)
+- 项目主页：<https://github.com/q1z2q3-debug/agent-audit-mcp>

@@ -42,3 +42,6 @@ desktop.ini
 *.log
 _probe*.txt
 _*.bak
+
+# Paper build artifact (regenerate with paper/md2paper_html.py)
+paper/*.html
