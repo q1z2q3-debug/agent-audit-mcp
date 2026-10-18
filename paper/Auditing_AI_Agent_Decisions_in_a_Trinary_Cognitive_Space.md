@@ -2,7 +2,7 @@
 
 **RUNZEAI** — Independent Researcher
 
-Version 1.0 — 2026
+Version 1.2 — 2026
 
 ---
 
@@ -334,6 +334,7 @@ Agents will keep getting more autonomous. "Autonomous" must not mean "unsupervis
 
 ## Artifact
 
+- This paper (Zenodo): DOI [10.5281/zenodo.23444061](https://doi.org/10.5281/zenodo.23444061)
 - Package (PyPI, MIT): https://pypi.org/project/agent-audit-mcp/
 - Source (GitHub): https://github.com/q1z2q3-debug/agent-audit-mcp
 - Companion article: "Giving Your AI Agent a Black Box: Auditing Every Decision in a 3^9 = 19,683-State Cognitive Space", dev.to, 2026.

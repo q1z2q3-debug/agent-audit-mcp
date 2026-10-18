@@ -105,11 +105,14 @@ The trinary nine-dimensional cognitive space behind this tool is published as a 
 
 > **Trinary Nine-Dimensional Cognitive Coordinate System: A Locatable and Generalizable Symbolic Cognition Layer** — DOI: [10.5281/zenodo.23437930](https://doi.org/10.5281/zenodo.23437930)
 
+The audit layer itself is formalized in a companion paper: [Auditing AI Agent Decisions in a 3^9 = 19,683-State Trinary Cognitive Space](https://doi.org/10.5281/zenodo.23444061).
+
 Agents will keep getting more autonomous. But "autonomous" must not mean "unsupervised". Giving every decision an enumerable, traceable cognitive coordinate is one of the foundations for landing AI safely.
 
 - ⭐ GitHub: https://github.com/q1z2q3-debug/agent-audit-mcp (MIT, 31 tests, 4-scenario demo)
 - 🧩 PyPI: `pip install agent-audit-mcp` — https://pypi.org/project/agent-audit-mcp/
-- 📄 Paper: https://doi.org/10.5281/zenodo.23437930
+- 📄 Paper (this work): https://doi.org/10.5281/zenodo.23444061
+- 📄 Underlying paper (cognitive coordinates): https://doi.org/10.5281/zenodo.23437930
 
 What has your agent stepped in? Tell me in the comments — next up: detecting agent decision drift with Hamming distance.
 

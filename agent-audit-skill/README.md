@@ -70,7 +70,7 @@ WorkBuddy 连 `http://<主机>:9527/mcp`。
 
 | 资源 | 链接 |
 | --- | --- |
-| 📄 论文（本审计层，md + PDF） | [`paper/Auditing_AI_Agent_Decisions_in_a_Trinary_Cognitive_Space.md`](paper/Auditing_AI_Agent_Decisions_in_a_Trinary_Cognitive_Space.md) / [.pdf](paper/Auditing_AI_Agent_Decisions_in_a_Trinary_Cognitive_Space.pdf)（Zenodo DOI 获取中） |
+| 📄 论文（本审计层，md + PDF） | [`paper/Auditing_AI_Agent_Decisions_in_a_Trinary_Cognitive_Space.md`](paper/Auditing_AI_Agent_Decisions_in_a_Trinary_Cognitive_Space.md) / [.pdf](paper/Auditing_AI_Agent_Decisions_in_a_Trinary_Cognitive_Space.pdf)（Zenodo v1.2，DOI: [10.5281/zenodo.23444061](https://doi.org/10.5281/zenodo.23444061)） |
 | 📄 论文（底层认知坐标系，已发 Zenodo） | DOI: [10.5281/zenodo.23437930](https://doi.org/10.5281/zenodo.23437930) |
 | 🌐 英文技术文（dev.to，已发布） | [Giving Your AI Agent a Black Box: Auditing Every Decision in a 3^9 = 19,683-State Cognitive Space](https://dev.to/q1z2q3debug/giving-your-ai-agent-a-black-box-auditing-every-decision-in-a-39-19683-state-cognitive-space-5hei) |
 | 📦 PyPI | <https://pypi.org/project/agent-audit-mcp/> |
